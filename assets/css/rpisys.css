@@ -109,6 +109,10 @@ img {
     height: auto;
     /* Part 2: Scale the height according to the width, otherwise you get stretching */
 
+    margin: 0 auto;
+
+    text-align:center;
+
     vertical-align: middle;
     border: 0;
     -ms-interpolation-mode: bicubic;
@@ -9504,6 +9508,8 @@ code {
 
 #logo {
     font-family: "Hannotate SC", cursive;
+    font-weight: 400;
+    color: #eee;
     line-height: 1.5;
     margin: 0 auto;
     text-align: center;
@@ -9564,7 +9570,6 @@ code {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
     max-width: 280px;
     height: 100%;
-    margin: 16px 8px;
     display: inline-block;
     width: 20%;
     margin: 0 2% 30px 2%;
