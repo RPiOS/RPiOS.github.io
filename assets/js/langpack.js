@@ -101,7 +101,7 @@ let execI18n = function(){
      */
     jQuery.i18n.properties({
         name : sourceName, //资源文件名称
-        path : 'https://raw.githubusercontent.com/740291272/RPiSystem/master/assets/lang/', //资源文件路径
+        path : 'https://raw.githubusercontent.com/rpisystem/RPiSystem.github.io/master/assets/lang/', //资源文件路径
         mode : 'map', //用Map的方式使用资源文件中的值
         language : i18nLanguage,
         callback : function() {//加载成功后设置显示内容
