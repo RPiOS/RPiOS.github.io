@@ -38,26 +38,6 @@ img {
     height:auto;
 }
 
-.btn {background:#135571;color:#fff;
-
-		-webkit-transition: all 250ms;
-        -moz-transition: all 250ms;
-        -o-transition: all  250ms;
-        transition: all  250ms;
-		
-		}
-		
-.btn:hover {background:#333; }
-
-.btn-download { border-radius:0 4px 0 0; font-weight:bold; width: 25px;  overflow: hidden;}
-
-.btn-download  img {  width: 25px;
-  float: left;
-  margin-top: 18px;
-  margin-right: 15px
-  }
- 
-.btn-download:hover { width:165px;} 
 
 iframe {
     border: 0 !important;
@@ -171,7 +151,7 @@ a:active {
 header {
     padding: 2em 0 2em 0; 
     
-    background: #26abe2; 
+    background: #2d2d2d;
     color: #fff;
 }
 
@@ -365,34 +345,6 @@ input:focus {
     border-color: #007eb2;
     outline: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .docs-nav {

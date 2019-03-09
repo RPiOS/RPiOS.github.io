@@ -9,7 +9,7 @@ thumbnail: ichigojam.png
 license: IchigoJamロイヤリティフリープログラム利用規約
 license_link: https://ichigojam.net/ichigojam-license.pdf
 support: 0 0W B B+ 2B 3B 3B+
-tag: 0, 0W, B, B+, 2B, 3B, 3B+
+tags: 0 0W B B+ 2B 3B 3B+
 desktop: No
 ---
 

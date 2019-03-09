@@ -9,7 +9,7 @@ thumbnail:
 license: 
 license_link: 
 support: 
-tag: 
+tags: 
 desktop: 
 ---
 
