@@ -9504,15 +9504,12 @@ code {
 
 #logo {
     font-family: "Hannotate SC", cursive;
-    font-weight: 400;
-    color: #eee;
     line-height: 1.5;
     margin: 0 auto;
     text-align: center;
     word-wrap: break-word;
     word-break: break-all;
     overflow: hidden;
-    width: 700px;
 }
 
 #logo a {
