@@ -146,14 +146,6 @@
     transition: all 0.3s 1s ease-out;
 }
 
-/* JavaScript Turned Off */
-.no-js #loader-wrapper {
-    display: none;
-}
-.no-js h1 {
-    color: #222222;
-}
-
 #content {
     margin: 0 auto;
     padding-bottom: 50px;
