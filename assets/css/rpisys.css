@@ -9507,9 +9507,6 @@ code {
     line-height: 1.5;
     margin: 0 auto;
     text-align: center;
-    word-wrap: break-word;
-    word-break: break-all;
-    overflow: hidden;
 }
 
 #logo a {
