@@ -6,8 +6,9 @@ layout: tags
 <section>
     <div class="container">
         <ul class="docs-nav">
+            <b class="lang" name="RpiVer"></b>
             {% for tag in site.tags %}
-            <li><b class="lang" name="RpiVer"></b><a href="#{{ tag[0] }}" class="tag">{{ tag[0] }}</a></li>
+            <li><a href="#{{ tag[0] }}" class="tag">{{ tag[0] }}</a></li>
             {% endfor %}
         </ul>
         <div class="docs-content">
