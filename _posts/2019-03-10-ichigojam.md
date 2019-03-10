@@ -8,8 +8,8 @@ author: jig.jp co., ltd
 thumbnail: ichigojam.png
 license: IchigoJamロイヤリティフリープログラム利用規約
 license_link: https://ichigojam.net/ichigojam-license.pdf
-support: 0 0W B B+ 2B 3B 3B+
-tags: 0 0W B B+ 2B 3B 3B+
+support: 0 0W A A+ B B+ 2B 3B 3B+
+tags: 0 0W A A+ B B+ 2B 3B 3B+
 desktop: No
 ---
 

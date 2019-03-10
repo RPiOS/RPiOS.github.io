@@ -8,8 +8,8 @@ author: LibreELEC Team
 thumbnail: libreelec.png
 license: GPLv2 
 license_link: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-support: 0 0W B B+ 2B 3B 3B+
-tags: 0 0W B B+ 2B 3B 3B+
+support: 0 0W A A+ B B+ 2B 3B 3B+
+tags: 0 0W A A+ B B+ 2B 3B 3B+
 desktop: Yes
 ---
 
