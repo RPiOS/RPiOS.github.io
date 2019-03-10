@@ -58,7 +58,7 @@ let i18nLanguage = "en";
 /*
 设置一下网站支持的语言种类
  */
-let webLanguage = ['zh-CN', 'zh-TW', 'en', 'hx'];
+let webLanguage = ['zh-CN', 'zh-TW', 'en', 'hx', 'jp'];
 
 /**
  * 执行页面i18n方法
