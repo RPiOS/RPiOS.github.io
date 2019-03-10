@@ -23,6 +23,10 @@ layout: default
         <br/><strong class="lang" name="Desktop"></strong> {{ page.desktop }}
         {% endif %}
 
+        {% if page.base %}
+        <br/><strong class="lang" name="Base"></strong> {{ page.base }}
+        {% endif %}
+
         <br/><br/>
         {% if page.homepage %}
         <a class="btn" href="{{ page.homepage }}"><i class="icon-home"></i><b class="lang" name="HomePage"></b> </a>
