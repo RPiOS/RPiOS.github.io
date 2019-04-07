@@ -8,8 +8,8 @@ author: Ubuntu MATE Team
 thumbnail: mate.png
 license: mainly GPL
 license_link: https://www.gnu.org/licenses/gpl-3.0.html
-support: 2B 3B
-tags: 2B 3B
+support: 3A+ 2B 3B 3B+
+tags: 3A+ 2B 3B 3B+
 desktop: Yes
 ---
 # Introduction
