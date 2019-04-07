@@ -21,4 +21,4 @@ Videos
 
 # Screenshot
 
-![cos](https://raw.githubusercontent.com/rpisystem/RPiSystem.github.io/master/thumbnails/Screenshot/chromeiumos.png)
+![cos](https://raw.githubusercontent.com/rpisystem/RPiSystem.github.io/master/thumbnails/Screenshot/chromiumos.png)
