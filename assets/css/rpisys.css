@@ -322,7 +322,7 @@ a:focus {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-    width: 100px;
+    width: 940px;
 }
 
 .span12 {
@@ -458,7 +458,7 @@ a:focus {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-    width: 100%;
+    width: 940px;
 }
 
 .span12 {
@@ -6208,7 +6208,10 @@ input[type="submit"].btn.btn-mini {
     margin-left: -280px;
     background-color: #ffffff;
     border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    *border: 1px solid #999;
     /* IE6-7 */
+
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -6216,6 +6219,7 @@ input[type="submit"].btn.btn-mini {
     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
     -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
     background-clip: padding-box;
     outline: none;
 }
@@ -7230,6 +7234,9 @@ a.badge:focus {
     box-sizing: border-box;
 }
 
+@-ms-viewport {
+    width: device-width;
+}
 
 .hidden {
     display: none;
@@ -7476,15 +7483,15 @@ a.badge:focus {
     .navbar-static-top .container,
     .navbar-fixed-top .container,
     .navbar-fixed-bottom .container {
-        width: 100%;
+        width: 1170px;
     }
 
     .span12 {
-        width: 100%;
+        width: 1170px;
     }
 
     .span11 {
-        width: 100%;
+        width: 1070px;
     }
 
     .span10 {
@@ -9500,6 +9507,7 @@ code {
 }
 
 #logo {
+    font-family: Arial, cursive;
     font-weight: 400;
     color: #eee;
     line-height: 1.5;
@@ -9607,6 +9615,7 @@ code {
 
 #post {
     margin: 0 auto;
+    width: 960px;
 }
 
 .post-content {
