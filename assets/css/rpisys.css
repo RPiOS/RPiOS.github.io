@@ -7476,7 +7476,7 @@ a.badge:focus {
     .navbar-static-top .container,
     .navbar-fixed-top .container,
     .navbar-fixed-bottom .container {
-        width: 1170px;
+        width: 100%;
     }
 
     .span12 {
@@ -7484,7 +7484,7 @@ a.badge:focus {
     }
 
     .span11 {
-        width: 1070px;
+        width: 100%;
     }
 
     .span10 {
