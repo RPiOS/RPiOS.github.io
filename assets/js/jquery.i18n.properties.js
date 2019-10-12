@@ -61,7 +61,7 @@
             path: '',
             namespace: null,
             mode: 'vars',
-            cache: false,
+            cache: true,
             debug: false,
             encoding: 'UTF-8',
             async: false,
