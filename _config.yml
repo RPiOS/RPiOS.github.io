@@ -10,3 +10,5 @@ paginate: 20
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
 
+
+theme: jekyll-theme-cayman
