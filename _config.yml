@@ -1,14 +1,26 @@
-permalink: /system/:title/
+title: RPi OS
+description: A Raspberry Pi System Download Site
 
-plugins: [jekyll-paginate]
+repository: RPiOS/RPiOS.github.io
 
-baseurl: /
+collections:
+  Systems:
+    output: true
+    permalink: /System/:title.aspx
 
-markdown: kramdown
-highlighter: rouge
-paginate: 20
+defaults:
+  - scope:
+      path: ""
+      type: "Systems"
+    values:
+      layout: "post"
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
-
-
-theme: jekyll-theme-cayman
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]

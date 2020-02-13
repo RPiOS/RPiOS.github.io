@@ -1,0 +1,18 @@
+<script>
+    let sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<a class="btn animated fadeIn delay-1s" href="{{ site.url }}{url}">{title}</a>',
+        noResultsText: 'OOP... No results found (。﹏。*)' +
+            '<br/>' +
+            'Submit this question to us and we will complete it soon! (o゜▽゜)o☆',
+        limit: 40,
+        fuzzy: false
+    })
+</script>
+
+<!-- Load JavaScript -->
+<script src="https://cdn.staticfile.org/simple-jekyll-search/1.7.3/simple-jekyll-search.min.js"></script>
+<script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>

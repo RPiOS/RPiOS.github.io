@@ -1,0 +1,18 @@
+<header class="page-header" role="banner">
+    <h1 class="project-name animated infinite pulse delay-1s">
+        {{ page.title | default: site.title }}
+    </h1>
+    {% if page.download %}
+    <h2 class="project-tagline"></h2>
+    {% else %}
+    <h2 class="project-tagline">
+        {{ site.description }}
+    </h2>
+    {% endif %}
+    {% if page.download %}
+    <a href="/" class="btn">HOME</a>
+    {% else %}
+    <input class="search-input" type="text" id="search-input" placeholder="Search a System With Name OR Board....">
+    <div class="results-container" id="results-container"></div>
+    {% endif %}
+</header>

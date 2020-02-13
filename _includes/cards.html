@@ -1,0 +1,14 @@
+<ul class="cards">
+    {% for os in site.Systems %}
+    <li onclick="Redirect('{{ os.url }}')" class="cards-item">
+        <div class="card">
+            <div class="card-image">
+                <img src="/thumbnails/{{ os.thumbnail }}" />
+            </div>
+            <div class="card-content">
+                <div class="card-title">{{ os.title }}</div>
+            </div>
+        </div>
+    </li>
+    {% endfor %}
+</ul>

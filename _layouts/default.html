@@ -1,81 +1,14 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title class="lang" name="page_title"></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta id="lang" content="data">
-    <link href="{{ BASE_PATH }}/assets/css/loader.css" rel="stylesheet"/>
-    <link href="{{ BASE_PATH }}/assets/css/syntax.css" rel="stylesheet"/>
-    <link href="{{ BASE_PATH }}/assets/css/rpisys.css" rel="stylesheet"/>
-</head>
+<html lang="en">
+{% include head.html %}
+
 <body>
-
-<header id="header">
-    <div class="wrap">
-        <h1 id="logo"><a href="/"><b class="lang" name="title"></b></a></h1>
-    </div>
-</header>
-
-<div id="pagecontainer" class="container">
-
-    <div class="widebanner row">
-        <div class="span12">
-            <div class="banner72" id="banner72">
-                <h3><a href="{{ BASE_PATH }}/tags"><b class="lang" name="tag"></b></a></h3>
-            </div>
-        </div>
-    </div>
-
-    <div id="loader-wrapper">
-        <div id="loader"></div>
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-    </div>
-    <div id="content">
-        {{ content }}
-    </div>
-</div>
-
-
-<footer id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="span5 copyright">
-                <p>Copyright &copy; {{ site.time | date: '%Y' }} GloomyGhost</p>
-                <p class="lang" name="powerd"></p>
-                <p class="lang" name="basetheme"></p>
-                <iframe src="https://ghbtns.com/github-btn.html?user=rpisystem&repo=rpisystem.github.io&type=fork&count=true"
-                        allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
-                <iframe src="https://ghbtns.com/github-btn.html?user=rpisystem&repo=rpisystem.github.io&type=watch&count=true"
-                        allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
-                <br/>
-                <select id="language">
-                    <option value="en">English</option>
-                    <option value="jp">日本語</option>
-                    <option value="zh-CN">中文简体</option>
-                    <option value="zh-TW">中文繁體</option>
-                    <option value="hx">鈥鯹文</option>
-                </select>
-                <br/>
-            </div>
-            <div class="span7">
-                <h3 class="lang" name="Tutorial"></h3>
-                <ul>
-                    <li class="lang" name="tut1"></li>
-                    <li class="lang" name="tut2"></li>
-                    <li class="lang" name="tut3"></li>
-                    <li class="lang" name="tut4"></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
-<script src="{{ BASE_PATH }}/assets/js/jquery.i18n.properties.js"></script>
-<script src="{{ BASE_PATH }}/assets/js/langpack.js"></script>
-<script src="{{ BASE_PATH }}/assets/js/loader.js"></script>
-
+  {% include header.html %}
+  <main id="content" class="main-content" role="main">
+    {{ content }}
+    {% include footer.html %}
+  </main>
+  {% include script.html %}
 </body>
+
 </html>

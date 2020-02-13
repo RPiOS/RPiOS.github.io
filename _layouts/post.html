@@ -2,45 +2,7 @@
 layout: default
 ---
 
-<div id="post" class="container">
-
-    <div class="postthumb"><img src="{{ BASE_PATH }}/thumbnails/{{ page.thumbnail }}"/></div>
-
-    <h1>{{ page.title }}</h1>
-
-    <div class="meta clearfix">
-        <strong class="lang" name="Author"></strong> {{ page.author }}
-
-        {% if page.license %}
-        <br/><strong class="lang" name="License"></strong> {{ page.license }}
-        {% endif %}
-
-        {% if page.support %}
-        <br/><strong class="lang" name="Support"></strong> {{ page.support }}
-        {% endif %}
-
-        {% if page.desktop %}
-        <br/><strong class="lang" name="Desktop"></strong> {{ page.desktop }}
-        {% endif %}
-
-        {% if page.base %}
-        <br/><strong class="lang" name="Base"></strong> {{ page.base }}
-        {% endif %}
-
-        <br/><br/>
-        {% if page.homepage %}
-        <a class="btn" href="{{ page.homepage }}"><i class="icon-home"></i><b class="lang" name="HomePage"></b> </a>
-        {% endif %}
-        {% if page.download %}
-        <a class="btn" href="{{ page.download }}"><i class="icon-download-alt"></i><b class="lang" name="Download"></b> </a>
-        {% endif %}
-        {% if page.license_link %}
-        <a class="btn" href="{{ page.license_link }}"><i class="icon-file"></i><b class="lang" name="License1"></b></a>
-        {% endif %}
-    </div>
-
-    <div class="post-content">
-        {{ content }}
-    </div>
-
-</div>
+<h1>Introduction</h1>
+{{ content }}
+<h1>Screenshot</h1>
+<img src="/thumbnails/Screenshot/{{ page.thumbnail }}">
