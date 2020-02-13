@@ -5,7 +5,7 @@ date: 2019-03-09
 homepage: https://www.raspberrypi.org/downloads/noobs/
 download: https://www.raspberrypi.org/downloads/noobs/
 author: RASPBERRY PI FOUNDATION
-thumbnail: noobs.jpg
+thumbnail: noobs.png
 license: Oracle Binary Code 
 license_link: http://www.java.com/license
 support: 0 0W A A+ B B+ 2B 3B 3B+ 4B CM1 CM3

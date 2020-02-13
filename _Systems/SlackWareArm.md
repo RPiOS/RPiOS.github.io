@@ -5,7 +5,7 @@ date: 2019-03-10
 homepage: http://rpi.fatdog.eu/index.php?p=downloads
 download: http://rpi.fatdog.eu/index.php?p=downloads
 author: SARPi
-thumbnail: slackwarearm.jpg
+thumbnail: slackwarearm.png
 license: 
 license_link: 
 support: 0 0W A A+ B B+ 2B 3B 3B+ CM1 CM3
