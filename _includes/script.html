@@ -1,8 +1,10 @@
+{% if page.download %}
+{% else %}
 <script>
     let sjs = SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '/search.json',
+        json: '{{ "/search.json" | relative_url }}',
         searchResultTemplate: '<a class="btn animated fadeIn delay-1s" href="{{ site.url }}{url}">{title}</a>',
         noResultsText: 'OOP... No results found (。﹏。*)' +
             '<br/>' +
@@ -11,6 +13,7 @@
         fuzzy: false
     })
 </script>
+{% endif %}
 
 <!-- Load JavaScript -->
 <script src="https://cdn.staticfile.org/simple-jekyll-search/1.7.3/simple-jekyll-search.min.js"></script>
